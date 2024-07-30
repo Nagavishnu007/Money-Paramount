@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Money Paramount</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+   <!-- <link href="assets/images/favicon.png" rel="icon">-->
+	<!--link rel="stylesheet" href="MTcourse_files/mainStyle.css"-->
+   <!-- <link rel="stylesheet" href="MTcourse_files/style.css">
+    <link rel="stylesheet" href="MTcourse_files/bootstrap.min.css">
+    <link rel="stylesheet" href="MTcourse_files/font-awesome.min.css">
+    <link rel="stylesheet" href="MTcourse_files/header.css">
+    <link rel="stylesheet" href="MTcourse_files/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>-->     <!--I commented line no 8-16 for unnecessary code -->
+
+</head>    
+
+    <body>
+       <!--<header>
+            <nav class="navbar-default header__nav">
+                <div class="container-90">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="header__logo">
+                                <a class="navbar-brand" href="dashboard.php">
+                                    <img src="assets/images/logo.png" alt="logo" class="logo-img1" style="height: 37px; width: 98.37px; margin-top: 6px;">
+                                </a>
+                            </div>
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <div class="collapse navbar-collapse" id="navbar-collapse">
+                                <ul class="nav navbar-nav nav__menu">
+                                    <li><a href="/">Home</a></li>
+                                    <li class="biz_bundle_nav">
+                                        <div class="header__dropdown">
+                                            <button class="dropdown-toggle dropdown_nav_show2" type="button">About Us</button>
+                                        </div>
+                                    </li>
+                                    <li><a href="contact.php">Contact Us</a></li>
+                                </ul>
+                            </div>
+                            <div class="desktop__cart">
+                                <div id="div_userprofile" class="dropdown user__dropdown">
+                                    <button class="btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                                        <img id="img_profile" src="./MTcourse_files/IMG_20230731_162412_180.jpg" alt="Profile">
+                                    </button>
+                                    <ul id="profile_option" class="dropdown-menu">
+                                        <li><a href="https://www.MoneyParamount.com/MyProfile.php"><i class="fa fa-user" aria-hidden="true"></i> My Profile</a></li>
+                                        <li><a href="kyc.php"><i class="fa fa-user" aria-hidden="true"></i> KYC</a></li>
+                                        <?php if ($admin === 'Yes'): ?>
+                                            <li><a href="admin.php?status=Active"><i class="fa fa-user" aria-hidden="true"></i> Admin Panel</a></li>
+                                        <?php endif; ?>
+                                        <li><a href="Earning-Dashboard.php"><i class="fa fa-user" aria-hidden="true"></i> Dashboard</a></li>
+                                        <li><a href="Affilates.php"><i class="fa fa-user" aria-hidden="true"></i> Affilates</a></li>
+                                        <li><a href="logout.php"><i class="fa fa-sign-out" aria-hidden="true"></i> Logout</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>-->     <!--I commented Header element line no 21-71 for unnecessary code -->
+        
+       <!-- <link href="Millionaire_Track_login_files/style.min.css" rel="stylesheet" type="text/css" id="theme-opt">
+        <script src="MTcourse_files/jquery-3.4.1.min.js"></script>
+        <script src="MTcourse_files/bootstrap.min.js"></script>-->
+      <!--  <script>
+            $(document).ready(function() {
+                $("#sidebarCollapse").on("click", function() {
+                    $("#sidebar").toggleClass("active");
+                    $(this).toggleClass("active");
+                });
+                $(".nav__close").click(function() {
+                    $("#sidebarCollapse").click();
+                });
+            });
+        </script>--> <!--I commented line no 73-86 for unnecessary code -->
+
+
+        <div class="circle">
+          <div class="sub-circle"></div>
+        </div>  
+
+        <main>
+          <!--  <<link href="./MTcourse_files/dashboard.css" rel="stylesheet">-->
+        
+            
+
+                 
+             <!--<div class="container-fluid">
+                <div class="pcoded-content">
+                  <div class="pcoded-inner-content">
+                    <div class="main-body">
+                     <div class="page-wrapper">-->
+                        <!-- Page-header start -->
+                        <!-- <div class="page-header">
+                            <div class="row align-items-end">
+                             <div class="col-lg-8">
+
+                             <div class="page-header-title">
+                                 <button type="button" id="sidebarCollapse" class="btn navbar-btn">
+                                <i class="glyphicon glyphicon-align-left"></i>
+                               &nbsp;
+                                <span></span>
+                                </button>
+                                <div class="d-inline">
+                                     <h4 class="color:Brown">Dashboard</h4>
+                                </div>
+
+                                </div>
+                                                            </div>
+        
+                                                        </div>
+                                                    </div>-->
+                              <!--    <h2 class="welcome__usre"><span>Welcome</span> <?= htmlspecialchars($course['username']) ?></h2>
+                                                                                              
+                                <div class="page-body">
+                                    <div class="row row-new">
+                                         <div class="col-md-4 col-sm-4 col-xs-12">
+                                             <div class="white_card user_crm_wrapper user_amt_list">
+                                                 <div class="card__UsreDeatil">
+                                                    <div class="row">
+                                                     <div class="col-lg-12 col-sm-12 col-xs-12">
+                                                        <div class="detail__main">
+                                                          <div class="usre__img">
+                      <img src="</?php echo $profile;?>"/>
+                      <img id="img_profile" src="./mian_files/IMG_20230731_162412_180.jpg">
+                                    </div>
+                                                ?php
+                                               foreach($profile as $data)
+                                               {
+                                                ?
+                                              <div class="user__nameDate">
+                                                 <p><?= htmlspecialchars($course['username']) ?>
+                                                    <span style="display:none">Thakurmohini46@gmail.com</span></p>
+                                                                                    </div>
+                                                                                    ?php }?
+        
+                                <div class="leader__boardView userDetail__boardView" style="display:none;">
+                                 <div class="dropdown">
+                                <span>
+                                <i class="fa fa-ellipsis-h f_s_11 white_text" aria-hidden="true"></i></span>
+                                <div class="dropdown-content">
+                 <a href="javascript:void(0)" data-toggle="modal" data-target="#userdetail">View Detail</a>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+        
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    
+                               <div class="row">
+                             <div class="col-lg-6 col-sm-6 col-xs-12">
+                             <div class="single_crm">
+                            <div class="crm_head d-flex align-items-center justify-content-between test">
+                            div class="thumb">
+                             <img src="./assets/images/rupee-indian.png">
+                             </div>
+                                <i class="fa fa-ellipsis-h f_s_11 white_text getsalesdata" id="day_1" aria-hidden="true" data-toggle="modal" data-target="#myModal3"></i>
+                             </div>-->   <!--I commented div line no 94-171 for unnecessary code -->
+                                                                                
+                     <div class="crm_body">
+
+                          <div class="sub1"> 
+                            <h4 id="MainContenttxtTodayEarning"><span class="dollarStyle" >₹</span></h4>
+                                 <span><?= htmlspecialchars($course_tv['Today_value']) ?></span>
+                            </h4> 
+                            </div>
+
+                           <div class="sub2">
+                            <span class="dollarStyle2" >₹</span>
+                            <h4 class="dollarStyle2">Today's Earning</h4></div>
+
+                    </div>   <!--Total earning content-->
+                     
+                                                            
+                   <!--  <div class="col-lg-6 col-sm-6 col-xs-12">
+                     <div class="single_crm single_crm_1">
+                     <div class="crm_head crm_bg_1 d-flex align-items-center justify-content-between">-->
+                           <!--<div class="thumb">
+                              <img src="./assets/images/rupee-indian.png">
+                            </div>-->
+
+               <!-- <i class="fa fa-ellipsis-h f_s_11 white_text getsalesdata" id="day_7" aria-hidden="true" 
+                data-toggle="modal" data-target="#myModal3"></i>-->
+                             
+                                                                                
+                                                                                                                                                        
+                    <div class="crm2">
+                        <div class="posFix">
+                         <h4 class="secondCrm"><span id="txtTodayEarning " class="dollarStyle">₹</span>
+                             <span><?= htmlspecialchars($course_wv['Week_value']) ?></span>
+                         </h4>
+                         <div class="secondDesc">
+                         <span class="dollarStyle2" >₹</span>
+                        <h4 class=" dollarStyle2">Last 7 Days Earning</h4>
+                    </div>
+                        </div>
+                     </div>    <!--Last 7 days earning-->
+                                                                                                                                                                                                                                    
+                  
+                    <!-- <div class="col-lg-6 col-sm-6 col-xs-12">
+                    <div class="single_crm single_crm_2 last_crm">
+                    <div class="crm_head crm_bg_2 d-flex align-items-center justify-content-between">
+                     <div class="thumb">
+        
+                        <img src="./assets/images/rupee-indian.png">
+                    </div>
+
+                     <i class="fa fa-ellipsis-h f_s_11 white_text getsalesdata" id="day_30" aria-hidden="true"
+                      data-toggle="modal" data-target="#myModal3"></i>
+                     </div>-->
+                                                                                
+                  <div class="crm_body">
+                    <div class="sub3" >
+                       <h4 id="txtEarning"><span class="dollarStyle">₹</span>
+                        <span><?= htmlspecialchars($course_mv['Month_value']) ?></span>
+                      </h4>
+                  
+                    <div class="sub3Desc">
+                        <span class="dollarStyle2" >₹</span>
+                      <h4 class="dollarStyle2" >Last 30 Days Earning</h4>
+                    </div>
+                </div>
+                  </div>  <!--Last 30 days earning-->
+                                                                                                                                                        
+                    
+                                                                        
+               <!--  <div class="col-lg-6 col-sm-6 col-xs-12">
+                <div class="single_crm single_crm_3 last_crm">
+                 <div class="crm_head crm_bg_3 d-flex align-items-center justify-content-between">
+                <div class="thumb">
+                   <img src="./assets/images/rupee-indian.png">
+                </div>
+                <div class="leader__boardView">
+                <div class="dropdown">
+                 <span>
+                 <i class="fa fa-ellipsis-h f_s_11 white_text" aria-hidden="true"></i></span>
+                <div class="dropdown-content">
+                <a href="https://millionairetrack.com/user/total_affiliate_list">View All</a>
+                 </div>
+                </div>
+                </div>
+                </div>-->     <!--I commented div tag  line no 240-255 for unnecessary code -->
+                                                                                
+                                                                                
+              <div class="crm4">
+                <div class="posFix2">
+                    <h4 class="fourCrm"><span id="txtng"  class="dollarStyle">₹</span>
+                       <span><?= htmlspecialchars($course_av['All_value']) ?></span>
+                    </h4>
+                    <div class="fourDesc">
+                        <span class="dollarStyle2" >₹</span>
+                    <h4 class="dollarStyle2"> All Time Earning</h4>
+                    </div>
+                    </div>
+                </div>
+
+                </div>    <!--All time earning-->
+                                                                               
+                                                        
+                                                           <!--  <div class="col-md-8 col-sm-8 col-xs-12">
+                                                                  <div class="white_card card_height_100 mb_30">
+                                                                    <div class="white_card_header">
+                                                                        <div class="row align-items-center">
+                                                                            <div class="col-lg-8 col-sm-8 col-xs-8">
+                                                                                <div class="main-title">
+                                                                                    <h3 class="m-0">Your Recent Sales</h3>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-lg-4 col-sm-4 col-xs-4">
+                                                                                <div class="row justify-content-end">
+                                                                                    <div class="col-lg-12">
+                                                                                        <div class="leader__boardView">
+                                                                                            <div class="dropdown">
+                                                                                                <span>
+                                                                                                    <i class="fa fa-ellipsis-h f_s_11 white_text" aria-hidden="true"></i></span>
+                                                                                                <div class="dropdown-content">
+                                                                                                    <a href="Affilates.php">View
+                                                                                                        All</a>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+        
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                        
+                                                                    </div>-->
+                                                                    <!--div class="white_card_body" style="max-height: 315px; overflow-y: scroll;">
+                                                                        
+                                                                                                                                         
+                                                                        <div class="single_user_pil d-flex align-items-center justify-content-between">
+                                                                            <div class="user_pils_thumb d-flex align-items-center">
+                                                                                <div class="thumb_34 mr_15 mt-0">
+                                                                                    <img class="img-fluid radius_50" src="./mian_files/saved_resource" alt="">
+                                                                                </div>
+                                                                                <span class="f_s_14 f_w_400 text_color_11">Pooja </span>
+                                                                            </div>
+                                                                            <div class="user_info">
+                                                                                ₹&nbsp; 0<br>
+                                                                                <span class="timing">2024-05-29 19:05:31</span>
+                                                                            </div>
+                                                                        </div>
+                                                                                                                                        
+                                                                        <div class="single_user_pil d-flex align-items-center justify-content-between">
+                                                                            <div class="user_pils_thumb d-flex align-items-center">
+                                                                                <div class="thumb_34 mr_15 mt-0">
+                                                                                    <img class="img-fluid radius_50" src="./mian_files/saved_resource" alt="">
+                                                                                </div>
+                                                                                <span class="f_s_14 f_w_400 text_color_11">Kashish Navneet Bagdiya </span>
+                                                                            </div>
+                                                                            <div class="user_info">
+                                                                                ₹&nbsp; 0<br>
+                                                                                <span class="timing">2024-05-28 01:06:56</span>
+                                                                            </div>
+                                                                        </div>
+                                                                                                                                        
+                                                                        <div class="single_user_pil d-flex align-items-center justify-content-between">
+                                                                            <div class="user_pils_thumb d-flex align-items-center">
+                                                                                <div class="thumb_34 mr_15 mt-0">
+                                                                                    <img class="img-fluid radius_50" src="./mian_files/saved_resource" alt="">
+                                                                                </div>
+                                                                                <span class="f_s_14 f_w_400 text_color_11">Sugiya </span>
+                                                                            </div>
+                                                                            <div class="user_info">
+                                                                                ₹&nbsp; 0<br>
+                                                                                <span class="timing">2024-04-25 04:26:16</span>
+                                                                            </div>
+                                                                        </div>
+                                                                                                                                        
+                                                                        <div class="single_user_pil d-flex align-items-center justify-content-between">
+                                                                            <div class="user_pils_thumb d-flex align-items-center">
+                                                                                <div class="thumb_34 mr_15 mt-0">
+                                                                                    <img class="img-fluid radius_50" src="./mian_files/saved_resource" alt="">
+                                                                                </div>
+                                                                                <span class="f_s_14 f_w_400 text_color_11">Jaya Pandey</span>
+                                                                            </div>
+                                                                            <div class="user_info">
+                                                                                ₹&nbsp; 0<br>
+                                                                                <span class="timing">2024-04-15 00:24:46</span>
+                                                                            </div>
+                                                                        </div>
+                                                                                                                                        
+                                                                        <div class="single_user_pil d-flex align-items-center justify-content-between">
+                                                                            <div class="user_pils_thumb d-flex align-items-center">
+                                                                                <div class="thumb_34 mr_15 mt-0">
+                                                                                    <img class="img-fluid radius_50" src="./mian_files/saved_resource" alt="">
+                                                                                </div>
+                                                                                <span class="f_s_14 f_w_400 text_color_11">Sanjana soni </span>
+                                                                            </div>
+                                                                            <div class="user_info">
+                                                                                ₹&nbsp; 0<br>
+                                                                                <span class="timing">2024-04-13 23:03:13</span>
+                                                                            </div>
+                                                                        </div>
+                                                                     </div-->
+                                                        
+                                                    <!-- <div class="row row-new">
+                                                            <div class="col-md-12 col-sm-4 col-xs-12">
+                                                                <div class="white_card user_crm_wrapper user_amt_list">
+                                                                    <div class="card__UsreDeatil">
+                                                                        <div class="row">
+                                                                            <div class="col-lg-12 col-sm-12 col-xs-12">
+                                                                                <div class="detail__main">
+                                                                                       <div class="usre__img">
+                                                                                        <img src="./mian_files/Array">
+                                                                                        <img id="img_profile" src="./mian_files/DATA_SCIENCE.png">
+                                                                                        </div>
+                                                                                            <div class="form-group">
+                                                                                                <div class="col-sm-12">
+                                                                                                    <div class="explore__moreBTN">
+                                                                                                        <span class="btn" style="border-radius: 40px; background-color: #24B1E5; 
+                                                                                                        color: white; height: 61px; padding: 8px; width: 100%;">Thank you for Enrolling with <br> Money Paramount</span>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        <div class="user__nameDate">
+                                                                                        <p>Your Current Active plan is <font color="brown"> <?= htmlspecialchars($course['Course_Name']) ?> </font>
+                                                                                            <span>This Is Your Current Active Plan</span>
+                                                                                        </p>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                          msg last end
+                                                </div>
+                                            </div>
+                                        </div>-->
+        
+        
+                                        <!-- Modal -->
+                                       <!-- <div class="modal fade zoom_none" id="myModal2" role="dialog">
+                                            <div class="modal-dialog" style="max-width: 590px;">
+        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>-->  <!--I commented div tag line no 8-16 for unnecessary code -->                   
+                     </div>
+        </main>
+        
+         <!--</footer> 
+        
+               <div class="footer-bottom-area hgghtfv1">
+                    <div class="container">
+                        <div class="footer-border">
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    <div class="footer-bottom-content text-center">
+                                        <p>&copy; 2023 Money Paramount All rights reserved.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <script src="./MTcourse_files/jquery-3.4.1.min.js"></script>
+            <script src="./MTcourse_files/bootstrap.min.js"></script>
+            <script src="./MTcourse_files/wow.min.js"></script>
+            <script src="./MTcourse_files/main.js"></script>
+            <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    var dropdown = document.querySelector('.dropdown');
+                    var dropdownMenu = document.querySelector('.dropdown-menu');
+        
+                    dropdown.addEventListener('click', function () {
+                        dropdownMenu.classList.toggle('show');
+                    });
+                });
+            </script> -->   <!--I commented  script tag line no 419-449 for unnecessary code -->
+        </body>
+        </html>
+       <!-- earning-dashboard.html
+        Zoomed out of item.  -->  

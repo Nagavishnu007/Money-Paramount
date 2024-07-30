@@ -1,0 +1,162 @@
+body {
+  background-color: #f3e09c;
+  margin: 0px !important;
+}
+
+/* .lecture-name{
+                    display: block;
+                    background: #fff;
+                    color: #2f55d4;
+                    padding: 5px 10px;
+                    left: 910;
+                    width: 200;
+                
+                }*/
+
+.circle {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.sub-circle {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(252, 243, 243);
+  border-radius: 50%;
+  border: 4px solid #614215;
+}
+
+.crm_body {
+  display: inline-block;
+  margin: 0;
+  width: 80%;
+  position: relative;
+}
+#MainContenttxtTodayEarning {
+  display: flex;
+  margin: 0px !important;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #6e3e03;
+}
+
+#txtEarning {
+  margin-left: 0;
+  display: flex;
+  margin: 0px !important;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #17410a;
+}
+.dollarStyle {
+  color: #fff;
+  font-size: 20px;
+  padding: 0px 20px;
+}
+.dollarStyle2 {
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 0px;
+  margin: 0px;
+}
+.sub2 {
+  background: linear-gradient(to right, #eeb36a, #6f4506) !important;
+  border-radius: 20px;
+  padding: 10px 20px;
+
+  display: block;
+}
+.sub3Desc {
+  background: linear-gradient(to right, #244619, #55a58e) !important;
+  border-radius: 20px;
+  padding: 10px 20px;
+
+  display: block;
+}
+/* Default width for small screens
+        .responsive-box {
+            width: 100%;
+            padding: 10px;
+            background-color: lightblue;
+        }*/
+
+/* Medium screens (tablets, 600px and above) */
+@media (min-width: 600px) {
+  .responsive-box {
+    width: 80%;
+    background-color: lightgreen;
+  }
+}
+
+/* Large screens (desktops, 1024px and above) */
+@media (min-width: 1024px) {
+  .responsive-box {
+    width: 90%;
+    height: 100%;
+    position: relative;
+    z-index: 9;
+
+    background-color: lightcoral;
+  }
+}
+
+/* second Crm-body */
+.crm2 {
+  display: flex !important;
+  margin: 10px 0px;
+  justify-content: end !important;
+  width: 100%;
+}
+.posFix {
+  width: 80%;
+}
+.secondCrm {
+  background-color: #7a1f07;
+  border-radius: 50px;
+  height: 50px;
+  display: block;
+  align-content: center;
+  margin: 0;
+}
+#txtTodayEarning {
+  color: #fff !important;
+  text-align: center;
+}
+.secondDesc {
+  background: linear-gradient(to right, #ffb19c, #840c32);
+  border-radius: 20px;
+  padding: 10px 20px;
+
+  display: block;
+}
+
+.crm4 {
+  display: flex !important;
+  margin: 10px 0px;
+  justify-content: end !important;
+  width: 100%;
+}
+.posFix2 {
+  width: 80%;
+}
+.fourCrm {
+  background-color: #6e156d;
+  border-radius: 50px;
+  height: 50px;
+  display: block;
+  align-content: center;
+  margin: 0;
+}
+.fourDesc {
+  background: linear-gradient(to right, #6e156d, #de87f4);
+  border-radius: 20px;
+  padding: 10px 20px;
+
+  display: block;
+}
